@@ -1,0 +1,6 @@
+************************PC.vhd*********************************************
+-bcp d'entrées qu'on ne sait pas comment gérer comme par exemple commet brancher reset ? 
+
+
+************************Controller.vhd************************************
+-il reste output à completer (le process) le reste devrait être bon normalement

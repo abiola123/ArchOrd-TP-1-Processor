@@ -37,5 +37,36 @@ entity controller is
 end controller;
 
 architecture synth of controller is
+  type state_type is (fetch1,fetch2,decode,r_op,store,break,load1,load2,i_op)
+  signal s_current_state,s_next_state : state_type;
+
 begin
+
+flip_flop : process(clk,reset_n) is
+  begin
+    if(reset_n = '0') then
+      s_current_state <= fetch1;
+    elsif(rising_edge(clk)) then
+      s_current_state<= s_next_state;
+    end if;
+
+  end process flip_flop;
+
+output : process(s_current_state) is
+  begin
+
+  end process output;
+
+
+  s_next_state <= fetch2 when s_current_state = fetch1 else
+                  decode when s_current_state = fetch2 else
+                  r_op when ((s_current_state = decode) and (op = 0X"3A") and (opx = 0X"0E")
+                  i_op when ((s_current_state = decode) and (op = 0X"04")
+                  load when ((s_current_state = decode) and (op = 0X"17")
+                  store when ((s_current_state = decode) and (op = 0X"15")
+                  break when ((s_current_state = break) or ((s_current_state=decode) and (op = 0X"3A") and (opx = 0X"34"))) else
+                  load2 when s_current_state = load1
+                  fetch1 when ((s_current_state = r_op) or (s_current_state = store) or (s_current_state = load2) or (s_current_state = i_op))
+
+
 end synth;

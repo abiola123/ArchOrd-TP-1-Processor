@@ -17,5 +17,19 @@ entity PC is
 end PC;
 
 architecture synth of PC is
+  signal s_counter_unsigned : unsigned(31 downto 0);
 begin
+
+
+    alt : process (clk,reset_n) is
+      begin
+        if(reset_n = '0') then
+          s_counter_unsigned <= X"00000000";
+        elsif(rising_edge(clk) and (en='1')) then
+          s_counter_unsigned <= s_counter_unsigned + to_unsigned(4,32);
+        end if;
+    end process alt;
+
+addr <= std_logic_vector(s_counter_unsigned);
+
 end synth;
