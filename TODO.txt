@@ -3,4 +3,6 @@
 
 
 ************************Controller.vhd************************************
--il reste output à completer (le process) le reste devrait être bon normalement
+-s'occuper de la sortie op_alu
+
+-qu'est-ce qu'on doit output sur op_alu dans l'état break ?

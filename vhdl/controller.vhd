@@ -54,23 +54,70 @@ flip_flop : process(clk,reset_n) is
 
 output : process(s_current_state) is
   begin
-    case (s_current_state) is
-      when fetch1 =>   ;
-      when fetch2 => pc_en <=1;
+    branch_op <= '0';
+    imm_signed <= '0';
+    ir_en <= '0';
+    pc_add_imm <= '0';
+    pc_en <= '0';
+    pc_sel_a <= '0';
+    pc_sel_imm <= '0';
+    rf_wren <= '0';
+    sel_addr <= '0';
+    sel_b <= '0';
+    sel_mem <= '0';
+    sel_pc '0';
+    sel_ra <= '0';
+    sel_rC <= '0';
+    read <= '0';
+    write <= '0';
+
+    case s_current_state is
+      when fetch1 =>
+        read <= '1';
+      when fetch2 =>
+        pc_en <= '1';
       when i_op =>
+        if(op = X"04") then
+          imm_signed <= '1';
+        end if;
+      when r_op =>
+        sel_b <= '1';
+        sel_rC <= '1';
+      when load1 =>
+        read = '1';
+       if(op = X"17") then
+        imm_signed <= '1';
+       end if;
+      when load2 =>
+      if(op = X"17") then
+       imm_signed <= '1';
+      end if;
+      when store =>
+      if(op = X"15") then
+         imm_signed <= '1';
+      end if;
+
+
+
+
     end case;
   end process output;
 
+  op_alu <= "100001" when ((op = X"3A") AND (opx = X"0E")) else
+            "110011" when ((op = X"3A") AND (opx = X"1B")) else
+            "000000" when ((op = X"04") OR (op = X"17") OR (op = X"15")) else
+            "110011" when ((op = X"3A") AND (opx = X"1B"));
 
   s_next_state <= fetch2 when s_current_state = fetch1 else
                   decode when s_current_state = fetch2 else
                   r_op when ((s_current_state = decode) and (op = X"3A") and (opx = X"0E")) else
                   i_op when ((s_current_state = decode) and (op = X"04")) else
-                  load when ((s_current_state = decode) and (op = X"17")) else
+                  load1 when ((s_current_state = decode) and (op = X"17")) else
                   store when ((s_current_state = decode) and (op = X"15")) else
                   break when ((s_current_state = break) or ((s_current_state=decode) and (op = X"3A") and (opx = X"34"))) else
                   load2 when s_current_state = load1 else
-                  fetch1 when ((s_current_state = r_op) or (s_current_state = store) or (s_current_state = load2) or (s_current_state = i_op))
+                  fetch1 when ((s_current_state = r_op) or (s_current_state = store) or (s_current_state = load2) or (s_current_state = i_op));
+
 
 
 end synth;
