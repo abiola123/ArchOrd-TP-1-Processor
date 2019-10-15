@@ -62,11 +62,11 @@ output : process(s_current_state) is
                   decode when s_current_state = fetch2 else
                   r_op when ((s_current_state = decode) and (op = X"3A") and (opx = X"0E")) else
                   i_op when ((s_current_state = decode) and (op = X"04")) else
-                  load when ((s_current_state = decode) and (op = X"17")) else
+                  load1 when ((s_current_state = decode) and (op = X"17")) else
                   store when ((s_current_state = decode) and (op = X"15")) else
                   break when ((s_current_state = break) or ((s_current_state=decode) and (op = X"3A") and (opx = X"34"))) else
                   load2 when s_current_state = load1 else
-                  fetch1 when ((s_current_state = r_op) or (s_current_state = store) or (s_current_state = load2) or (s_current_state = i_op))
+                  fetch1 when ((s_current_state = r_op) or (s_current_state = store) or (s_current_state = load2) or (s_current_state = i_op));
 
 
 end synth;
