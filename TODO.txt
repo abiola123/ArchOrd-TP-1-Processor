@@ -6,3 +6,5 @@
 -s'occuper de la sortie op_alu
 
 -qu'est-ce qu'on doit output sur op_alu dans l'état break ?
+
+-dans l'etat store, quand on branche les outputs ,est-ce que sel b doit être sur 1 pour selectionner b 

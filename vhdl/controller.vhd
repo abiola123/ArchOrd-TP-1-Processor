@@ -85,22 +85,24 @@ output : process(s_current_state) is
         sel_rC <= '1';
       when load1 =>
         read <= '1';
+        sel_addr <= '1';
        if(op = X"17") then
         imm_signed <= '1';
        end if;
       when load2 =>
-      if(op = X"17") then
+       sel_mem <= '1';
+       if(op = X"17") then
        imm_signed <= '1';
-      end if;
+       end if;
       when store =>
+      write <= '1';
       if(op = X"15") then
          imm_signed <= '1';
       end if;
-
-
-
+      when others => null ;
 
     end case;
+
   end process output;
 
   op_alu <= "100001" when ((op = X"3A") AND (opx = X"0E")) else
@@ -110,7 +112,7 @@ output : process(s_current_state) is
 
   s_next_state <= fetch2 when s_current_state = fetch1 else
                   decode when s_current_state = fetch2 else
-                  r_op when ((s_current_state = decode) and (op = X"3A") and (opx = X"0E")) else
+                  r_op when ((s_current_state = decode) and (op = X"3A") and ((opx = X"0E") or (opx = X"1B")) else
                   i_op when ((s_current_state = decode) and (op = X"04")) else
                   load1 when ((s_current_state = decode) and (op = X"17")) else
                   store when ((s_current_state = decode) and (op = X"15")) else
