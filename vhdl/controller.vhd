@@ -54,7 +54,11 @@ flip_flop : process(clk,reset_n) is
 
 output : process(s_current_state) is
   begin
-
+    case (s_current_state) is
+      when fetch1 =>   ;
+      when fetch2 => pc_en <=1;
+      when i_op =>
+    end case;
   end process output;
 
 
