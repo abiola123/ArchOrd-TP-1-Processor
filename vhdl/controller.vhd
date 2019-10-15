@@ -37,7 +37,7 @@ entity controller is
 end controller;
 
 architecture synth of controller is
-  type state_type is (fetch1,fetch2,decode,r_op,store,break,load1,load2,i_op)
+  type state_type is (fetch1,fetch2,decode,r_op,store,break,load1,load2,i_op);
   signal s_current_state,s_next_state : state_type;
 
 begin
@@ -60,12 +60,12 @@ output : process(s_current_state) is
 
   s_next_state <= fetch2 when s_current_state = fetch1 else
                   decode when s_current_state = fetch2 else
-                  r_op when ((s_current_state = decode) and (op = 0X"3A") and (opx = 0X"0E")
-                  i_op when ((s_current_state = decode) and (op = 0X"04")
-                  load when ((s_current_state = decode) and (op = 0X"17")
-                  store when ((s_current_state = decode) and (op = 0X"15")
-                  break when ((s_current_state = break) or ((s_current_state=decode) and (op = 0X"3A") and (opx = 0X"34"))) else
-                  load2 when s_current_state = load1
+                  r_op when ((s_current_state = decode) and (op = X"3A") and (opx = X"0E")) else
+                  i_op when ((s_current_state = decode) and (op = X"04")) else
+                  load when ((s_current_state = decode) and (op = X"17")) else
+                  store when ((s_current_state = decode) and (op = X"15")) else
+                  break when ((s_current_state = break) or ((s_current_state=decode) and (op = X"3A") and (opx = X"34"))) else
+                  load2 when s_current_state = load1 else
                   fetch1 when ((s_current_state = r_op) or (s_current_state = store) or (s_current_state = load2) or (s_current_state = i_op))
 
 
