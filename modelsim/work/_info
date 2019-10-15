@@ -22,9 +22,9 @@ V^LRLF3C5hR>lVZ>cBHN]B1
 !s100 Ho^oT``GLJUNf<W@=D9Un1
 Z7 OP;C;10.4a;61
 32
-Z8 !s110 1570562262
+Z8 !s110 1571141371
 !i10b 1
-Z9 !s108 1570562262.000000
+Z9 !s108 1571141371.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/add_sub.vhd|
 Z11 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/add_sub.vhd|
 !i113 1
@@ -62,11 +62,11 @@ Veej2kZB@<P^6oAR8[4fm:3
 !s100 O`l`Xc5c_V9`dzon<W_fQ2
 R7
 32
-Z16 !s110 1570562263
+R8
 !i10b 1
 R9
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/ALU.vhd|
-Z18 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/ALU.vhd|
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/ALU.vhd|
+Z17 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/ALU.vhd|
 !i113 1
 R12
 R13
@@ -80,33 +80,33 @@ Vf8B8BhlRc7WgWH5fLTojQ0
 !s100 ao^@A8=RSg[FW?jY:[EXI0
 R7
 32
-R16
+R8
 !i10b 1
 R9
+R16
 R17
-R18
 !i113 1
 R12
 R13
 Ebuttons
-Z19 w1507042160
+Z18 w1507042160
 R1
 R2
 R3
 R4
-Z20 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/buttons.vhd
-Z21 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/buttons.vhd
+Z19 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/buttons.vhd
+Z20 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/buttons.vhd
 l0
 L5
 VTC?7j54hYXC]E_?KP:GCD0
 !s100 =22bV77NIHzbkEY31]2hQ2
 R7
 32
-Z22 !s110 1570562260
+Z21 !s110 1571141369
 !i10b 1
-Z23 !s108 1570562260.000000
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/buttons.vhd|
-Z25 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/buttons.vhd|
+Z22 !s108 1571141369.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/buttons.vhd|
+Z24 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/buttons.vhd|
 !i113 1
 R12
 R13
@@ -121,22 +121,22 @@ V>bdKLBAC[bOhQ3fckJO@23
 !s100 l:Q7JXKFoP5Z9FQDUXG9]3
 R7
 32
-R22
+R21
 !i10b 1
+R22
 R23
 R24
-R25
 !i113 1
 R12
 R13
 Pcheck_functions
-Z26 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z25 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
 R2
 R3
-Z27 w1538998210
+Z26 w1538998210
 R4
-Z28 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/check_functions.vhd
-Z29 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/check_functions.vhd
+Z27 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/check_functions.vhd
+Z28 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/check_functions.vhd
 l0
 L6
 V?:GUj2L`C8MiBgFD5SbXJ3
@@ -144,17 +144,17 @@ V?:GUj2L`C8MiBgFD5SbXJ3
 R7
 32
 b1
-R8
+Z29 !s110 1571141370
 !i10b 1
-R9
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/check_functions.vhd|
-Z31 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/check_functions.vhd|
+Z30 !s108 1571141370.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/check_functions.vhd|
+Z32 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/check_functions.vhd|
 !i113 1
 R12
 R13
 Bbody
-Z32 DPx4 work 15 check_functions 0 22 ?:GUj2L`C8MiBgFD5SbXJ3
-R26
+Z33 DPx4 work 15 check_functions 0 22 ?:GUj2L`C8MiBgFD5SbXJ3
+R25
 R2
 R3
 l0
@@ -163,11 +163,11 @@ VN2Cd<T:6Db14m[JS6o24S2
 !s100 ]Ul<gd[SNh_SV]VQVO[::0
 R7
 32
-R8
+R29
 !i10b 1
-R9
 R30
 R31
+R32
 !i113 1
 R12
 R13
@@ -176,19 +176,19 @@ R0
 R2
 R3
 R4
-Z33 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/comparator.vhd
-Z34 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/comparator.vhd
+Z34 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/comparator.vhd
+Z35 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/comparator.vhd
 l0
 L4
 VCjORK3IeLYQ=F3ilQICKC3
 !s100 XTWoF>RX1>LcmLLBBo;N:0
 R7
 32
-R16
+Z36 !s110 1571141372
 !i10b 1
-Z35 !s108 1570562263.000000
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/comparator.vhd|
-Z37 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/comparator.vhd|
+R9
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/comparator.vhd|
+Z38 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/comparator.vhd|
 !i113 1
 R12
 R13
@@ -202,16 +202,16 @@ V_`DCKaDTI<3l2:MJ<?Q8A0
 !s100 5]]X]V4WTGJ[:fe>_<@M70
 R7
 32
-R16
-!i10b 1
-R35
 R36
+!i10b 1
+R9
 R37
+R38
 !i113 1
 R12
 R13
 Econtroller
-Z38 w1538998212
+w1571141365
 R2
 R3
 R4
@@ -223,9 +223,9 @@ V53SJ`G10QLMzBnEHNlz`S3
 !s100 iLCb?>B5ja1L5iDVmAU]]0
 R7
 32
-R22
+R21
 !i10b 1
-R23
+R22
 Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/controller.vhd|
 Z42 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/controller.vhd|
 !i113 1
@@ -241,30 +241,31 @@ VG=DA_dzjf==`FCOHSKENY0
 !s100 I@5[7Rha<4mXjGXY?Ha]m2
 R7
 32
-R22
+!s110 1570562260
 !i10b 1
-R23
+!s108 1570562260.000000
 R41
 R42
 !i113 1
 R12
 R13
+Z43 w1538998212
 Ecpu
-R38
+R43
 R2
 R3
 R4
-Z43 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/CPU.vhd
-Z44 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/CPU.vhd
+Z44 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/CPU.vhd
+Z45 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/CPU.vhd
 l0
 L24
 V^k:mLV::fS6IZ<z`ORIE:3
 !s100 ?^3E^YkUK_jO8j=PLQg0X0
 R7
 32
-Z45 !s110 1570562261
+R21
 !i10b 1
-R23
+R22
 Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/CPU.vhd|
 Z47 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/CPU.vhd|
 !i113 1
@@ -280,9 +281,9 @@ V9Bndb[hOzThX7`@B[Am>i0
 !s100 nj]fOeJzKgV2QQoiYJ37e2
 R7
 32
-R45
+R21
 !i10b 1
-R23
+R22
 R46
 R47
 !i113 1
@@ -302,11 +303,11 @@ VRl[gk?GaINKchGMMTUmi13
 !s100 AFB0ML6VQk7e@=`ELT6O=3
 R7
 32
-R16
+R36
 !i10b 1
-R35
-Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/decoder.vhd|
-Z52 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/decoder.vhd|
+Z51 !s108 1571141372.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/decoder.vhd|
+Z53 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/decoder.vhd|
 !i113 1
 R12
 R13
@@ -321,30 +322,30 @@ Vn^b53hSlI6C1N^0d0ecWe3
 !s100 dH<U1IO>cd3KCDjjB=LJ@2
 R7
 32
-R16
+R36
 !i10b 1
-R35
 R51
 R52
+R53
 !i113 1
 R12
 R13
 Eextend
-Z53 w1570559568
+Z54 w1570559568
 R2
 R3
 R4
-Z54 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/extend.vhd
-Z55 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/extend.vhd
+Z55 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/extend.vhd
+Z56 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/extend.vhd
 l0
 L4
 VBHQmhzc[eQ=cgFHTPTKLg3
 !s100 [OER<nle^Gzi[Q]KGKSL33
 R7
 32
-R45
+R21
 !i10b 1
-Z56 !s108 1570562261.000000
+R22
 Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/extend.vhd|
 Z58 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/extend.vhd|
 !i113 1
@@ -360,9 +361,9 @@ V3^RjU9Q_b@kkjZGEeIM8o3
 !s100 ^E[d327W1iULaA0_fn=PB1
 R7
 32
-R45
+R21
 !i10b 1
-R56
+R22
 R57
 R58
 !i113 1
@@ -381,9 +382,9 @@ V<G=z]=?11MYNLGAa7EfI40
 !s100 LSB69=RnS?7B=e740[]>J0
 R7
 32
-R45
+R21
 !i10b 1
-R56
+R22
 Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/GECKO.vhd|
 Z63 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/GECKO.vhd|
 !i113 1
@@ -399,9 +400,9 @@ V3KAL;YNmTk<RB?NDa;DmY2
 !s100 6_aIkK46>FzI3D:<OBG:Z1
 R7
 32
-R45
+R21
 !i10b 1
-R56
+R22
 R62
 R63
 !i113 1
@@ -420,9 +421,9 @@ VQ]Me?^f6aW>Rn?0SjN6:B3
 !s100 g>VC3<ZiU9SUL1eB^Hc9_3
 R7
 32
-R45
+R21
 !i10b 1
-R56
+R22
 Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/IR.vhd|
 Z69 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/IR.vhd|
 !i113 1
@@ -438,9 +439,9 @@ V<m1FE21i1^>RZkF8Y=Co22
 !s100 TS`o]U64NGI4`iQR2MhMm1
 R7
 32
-R45
+R21
 !i10b 1
-R56
+R22
 R68
 R69
 !i113 1
@@ -460,9 +461,9 @@ Vo>J7iWB4M6`?_S`BVlDj31
 !s100 LBhnQz<diU;5h1EbFfFEW1
 R7
 32
-R16
+R36
 !i10b 1
-R35
+R51
 Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/LEDs.vhd|
 Z74 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/LEDs.vhd|
 !i113 1
@@ -479,9 +480,9 @@ VzPJN=e8mNVefz3=kdaUYk1
 !s100 >nX>UXM`h;^[mnM>habSd1
 R7
 32
-R16
+R36
 !i10b 1
-R35
+R51
 R73
 R74
 !i113 1
@@ -500,9 +501,9 @@ V<?zaE@?M1lIziRP1K9f0m3
 !s100 UJioXKUg8XUULGTSe2WE20
 R7
 32
-R16
+R36
 !i10b 1
-R35
+R51
 Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/logic_unit.vhd|
 Z78 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/logic_unit.vhd|
 !i113 1
@@ -518,9 +519,9 @@ V00FT^OKn=PJD>K^^@T5]l1
 !s100 3DmVkB2]?:L_H<n^TWeEe1
 R7
 32
-R16
+R36
 !i10b 1
-R35
+R51
 R77
 R78
 !i113 1
@@ -539,9 +540,9 @@ VF8]@h:=2JK_ZknAYR7E281
 !s100 UDM^5ga=kb9Z[=K^]bghV0
 R7
 32
-R16
+R36
 !i10b 1
-R35
+R51
 Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/multiplexer.vhd|
 Z82 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/multiplexer.vhd|
 !i113 1
@@ -557,9 +558,9 @@ VjeZ__KMj4eLhLa=Fd1]@G3
 !s100 ]1GhM[_];JhEOT_ofcMg93
 R7
 32
-R16
+R36
 !i10b 1
-R35
+R51
 R81
 R82
 !i113 1
@@ -578,9 +579,9 @@ V[zBz7>3=iJIjV7W;lkDDk2
 !s100 ]AkMHg3_OS9:k6cjVd[b:3
 R7
 32
-R45
+R29
 !i10b 1
-R56
+R30
 Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/mux2x16.vhd|
 Z87 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/mux2x16.vhd|
 !i113 1
@@ -596,9 +597,9 @@ V?QAUoZ5djzhLJO9]4[cCk3
 !s100 z<[zg_XMB:K95C[3AF^:z3
 R7
 32
-R45
+R29
 !i10b 1
-R56
+R30
 R86
 R87
 !i113 1
@@ -617,9 +618,9 @@ Vz2PPzaCZ^?dR5HDgGkDL50
 !s100 Iab^5l@hZCaSi22IEjFiN0
 R7
 32
-R45
+R29
 !i10b 1
-R56
+R30
 Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/mux2x32.vhd|
 Z92 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/mux2x32.vhd|
 !i113 1
@@ -635,9 +636,9 @@ VVMbz`]i^EJJjhRBLz>BI11
 !s100 ;>PE7Y2RY2FP=C23US_hN3
 R7
 32
-R45
+R29
 !i10b 1
-R56
+R30
 R91
 R92
 !i113 1
@@ -656,9 +657,9 @@ Vmonb[Cd]:^BVjaKJKDMmm3
 !s100 A96?gLbg3Wafg>1JToSDm3
 R7
 32
-R45
+R29
 !i10b 1
-R56
+R22
 Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/mux2x5.vhd|
 Z97 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/mux2x5.vhd|
 !i113 1
@@ -674,9 +675,9 @@ VKATWJk1eNfBJ:9VMQdgD13
 !s100 O4<EGEYFCzmCONJQZ@=A21
 R7
 32
-R45
+R29
 !i10b 1
-R56
+R22
 R96
 R97
 !i113 1
@@ -688,19 +689,19 @@ R1
 R2
 R3
 R4
-Z99 8D:\Dokumente\EPFL\Semestre_3\ArchOrd\Lab 3 Multicycle Processor\template\vhdl\PC.vhd
-Z100 FD:\Dokumente\EPFL\Semestre_3\ArchOrd\Lab 3 Multicycle Processor\template\vhdl\PC.vhd
+Z99 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/PC.vhd
+Z100 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/PC.vhd
 l0
 L5
 Vc5@O0[^J3@8:ZL]z]V<DZ1
 !s100 Vz;DIYb[AY;g5[laVME<e3
 R7
 32
-R45
+R29
 !i10b 1
-R56
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Dokumente\EPFL\Semestre_3\ArchOrd\Lab 3 Multicycle Processor\template\vhdl\PC.vhd|
-Z102 !s107 D:\Dokumente\EPFL\Semestre_3\ArchOrd\Lab 3 Multicycle Processor\template\vhdl\PC.vhd|
+R30
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/PC.vhd|
+Z102 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/PC.vhd|
 !i113 1
 R12
 R13
@@ -715,9 +716,9 @@ V0DOWenka?b8ML>VQKWmQU1
 !s100 FTmH`59mda[ELbDh6AWk52
 R7
 32
-R45
+R29
 !i10b 1
-R56
+R30
 R101
 R102
 !i113 1
@@ -737,9 +738,9 @@ Vk3Pbl<130N10UIbe_U@Z92
 !s100 PTBie8f@TncX3oaiYaQnO0
 R7
 32
-R16
+R36
 !i10b 1
-R35
+R51
 Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/RAM.vhd|
 Z106 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/RAM.vhd|
 !i113 1
@@ -756,9 +757,9 @@ V>UeahgfJ;TIa8MV74U7H40
 !s100 PYcWjVc]1g[]bz6WQI6jC2
 R7
 32
-R16
+R36
 !i10b 1
-R35
+R51
 R105
 R106
 !i113 1
@@ -778,11 +779,11 @@ VSZ]V^PUWV>QS5a[VFGE^63
 !s100 B2W<IZ>FU2<b0N;Oz]]UM3
 R7
 32
-R16
+Z109 !s110 1571141373
 !i10b 1
-R35
-Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/register_file.vhd|
-Z110 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/register_file.vhd|
+R51
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/register_file.vhd|
+Z111 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/register_file.vhd|
 !i113 1
 R12
 R13
@@ -797,11 +798,11 @@ VZ[1J7=Yh;=kAa;m2L@fh_0
 !s100 5JOh7ejcJOAhc]<P@G;0@3
 R7
 32
-R16
-!i10b 1
-R35
 R109
+!i10b 1
+R51
 R110
+R111
 !i113 1
 R12
 R13
@@ -810,17 +811,17 @@ R0
 R2
 R3
 R4
-Z111 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/ROM.vhd
-Z112 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/ROM.vhd
+Z112 8D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/ROM.vhd
+Z113 FD:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/ROM.vhd
 l0
 L4
 VP=4E@iAaYlk4E92WWUMS[1
 !s100 LzhnA0@bLeKPHkcXf<L3g3
 R7
 32
-Z113 !s110 1570562264
+R109
 !i10b 1
-Z114 !s108 1570562264.000000
+Z114 !s108 1571141373.000000
 Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/ROM.vhd|
 Z116 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/ROM.vhd|
 !i113 1
@@ -836,7 +837,7 @@ V@]GmmkL4?joVK6l;`o]EF1
 !s100 Y9=QaIc17N@Lke5P^d:cE3
 R7
 32
-R113
+R109
 !i10b 1
 R114
 R115
@@ -858,7 +859,7 @@ V1M]>N42_Z8g;d_kla3]QX1
 !s100 C4@E7NN0:UB89P^MW405S0
 R7
 32
-R113
+R109
 !i10b 1
 R114
 Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/vhdl/shift_unit.vhd|
@@ -877,7 +878,7 @@ Z123 V]CDQXI^n>W[4MHN@WbicF2
 Z124 !s100 dC3RH_ngSNidhYJX18aNc2
 R7
 32
-R113
+R109
 !i10b 1
 R114
 R120
@@ -886,9 +887,9 @@ R121
 R12
 R13
 Etb_controller
-R27
-R32
 R26
+R33
+R25
 R1
 R2
 R3
@@ -901,17 +902,17 @@ VZCcUb3fdX5TPAiQ:oX6>00
 !s100 QPYMI?@zF<fA]gVd9c[kS0
 R7
 32
-R8
+R29
 !i10b 1
-R9
+R30
 Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/tb_Controller.vhd|
 Z128 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/tb_Controller.vhd|
 !i113 1
 R12
 R13
 Atestbench
-R32
-R26
+R33
+R25
 R1
 R2
 R3
@@ -922,18 +923,18 @@ VRcd9HSbN_bb^GYllR2;J?3
 !s100 _WkzDDFBPd:3LHMWS[AoW2
 R7
 32
-R8
+R29
 !i10b 1
-R9
+R30
 R127
 R128
 !i113 1
 R12
 R13
 Etb_extend
-R27
-R32
 R26
+R33
+R25
 R2
 R3
 R4
@@ -947,15 +948,15 @@ R7
 32
 R8
 !i10b 1
-R9
+R30
 Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/tb_Extend.vhd|
 Z132 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/template/testbench/tb_Extend.vhd|
 !i113 1
 R12
 R13
 Atestbench
-R32
-R26
+R33
+R25
 R2
 R3
 DEx4 work 9 tb_extend 0 22 @lkI76dg98:AiUBl4o<zm3
@@ -967,14 +968,14 @@ R7
 32
 R8
 !i10b 1
-R9
+R30
 R131
 R132
 !i113 1
 R12
 R13
 Etb_gecko
-R38
+R43
 R2
 R3
 R4
@@ -1014,9 +1015,9 @@ R136
 R12
 R13
 Etb_ir
-R38
-R32
-R26
+R43
+R33
+R25
 R2
 R3
 R4
@@ -1037,8 +1038,8 @@ Z140 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/templ
 R12
 R13
 Atestbench
-R32
-R26
+R33
+R25
 R2
 R3
 DEx4 work 5 tb_ir 0 22 2T=Zh6d765W0^=F5B=UE;2
@@ -1057,9 +1058,9 @@ R140
 R12
 R13
 Etb_pc
-R38
-R32
-R26
+R43
+R33
+R25
 R2
 R3
 R4
@@ -1080,8 +1081,8 @@ Z144 !s107 D:/Dokumente/EPFL/Semestre_3/ArchOrd/Lab 3 Multicycle Processor/templ
 R12
 R13
 Atestbench
-R32
-R26
+R33
+R25
 R2
 R3
 DEx4 work 5 tb_pc 0 22 6CDWjcJeT<^Z<em:_JS812
